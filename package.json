@@ -1,0 +1,19 @@
+{
+  "name": "jobsitychallenge",
+  "version": "1.0.0",
+  "description": "This is a challenge for the QA Automation position at Jobsity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neoxss/jobsitychallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neoxss/jobsitychallenge/issues"
+  },
+  "homepage": "https://github.com/Neoxss/jobsitychallenge#readme"
+}
