@@ -18,17 +18,6 @@ export class AppPage {
     return browser.driver.findElement(by.css('[data-loc="SignIn"]')).click();
   }
 
-  secretQuestionLogin() {
-    browser.ignoreSynchronization = true;
-    browser.manage().window().maximize();
-    browser.manage().timeouts().implicitlyWait(10000);
-
-    browser.driver.get(env.baseUrl);
-    browser.driver.findElement(by.id('userIdBiz')).sendKeys(env.userNameSecret);
-    browser.driver.findElement(by.id('passBiz')).sendKeys(env.userPasswordSecret);
-    return browser.driver.findElement(by.css('[data-loc="SignIn"]')).click();
-  }
-
   homepage(){
     browser.ignoreSynchronization = true;
     browser.manage().window().maximize();
@@ -56,26 +45,25 @@ export class AppPage {
   feedbackTitle(){
     return element(by.id('feedback-title')).getAttribute("textContent") as Promise<string>;
   }
-  getTitleText() {
-    return element(by.id('gNavTexHeader')).getAttribute("textContent") as Promise<string>;
+
+  moreServicesBtn(){
+    return element(by.id('online-banking')).click();
   }
 
-  selectSecretQuestionOption() {
-    return element(by.xpath('/html/body/div[1]/div[4]/div[4]/div/div[3]/div/div/strong/span/a/b')).click();
+  checkAccActLink(){
+    return element(by.id('account_activity_link')).click();
   }
 
-  selectAdvanceFilters() {
-    var filterBtn = element(by.xpath('/html/body/app-root/main/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/div[1]/div[2]/ul/li[1]/a/i'));
-    browser.wait(EC.elementToBeClickable(filterBtn), 20000);
-    return element(by.xpath('/html/body/app-root/main/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/div[1]/div[2]/ul/li[1]/a/i')).click();
-
+  transFundsLink(){
+    return element(by.id('transfer_funds_link')).click();
   }
 
-  fillForm() {
-    var applyButton = element(by.xpath('/html/body/app-root/main/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/app-filter-sidebar/app-shared-modal/div/div/div/div[3]/button[2]'));
-    var orderNumber = element(by.xpath('/html/body/app-root/main/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/app-filter-sidebar/app-shared-modal/div/div/div/div[2]/div/div/div[1]/div[1]/input'));
-    orderNumber.sendKeys('123');
-    return applyButton.click();
+  moneyMapLink(){
+    return element(by.id('transfer_funds_link')).click();
+  }
+
+  loginTitle(){
+    return element(by.css('h3')).getAttribute("textContent") as Promise<string>;
   }
 
   orderFieldStatus() {

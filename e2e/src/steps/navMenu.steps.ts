@@ -40,5 +40,5 @@ When(/^I click on the Feedback Section$/, async () => {
 });
 
 Then(/^It should take me to the Feedback Section$/, async () => {
-    expect((await page.feedbackTitle())).to.equal('Feedback');
+    expect((await page.feedbackTitle ())).to.equal('Feedback');
 });

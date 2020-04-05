@@ -1,7 +1,10 @@
 [
   {
-    "description": "Verify if User can go to the Online Banking Section by using the Nav Menu",
+    "description": "Verify if User can go to the Online Banking Section by using the More Services button",
     "assertions": [
+      {
+        "passed": true
+      },
       {
         "passed": true
       },
@@ -27,11 +30,11 @@
     "events": [
       {
         "emitterEvent": "testPass",
-        "name": "Given I go to the home page",
-        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "name": "Given I go to the homepage",
+        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the More Services button",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
           "line": 6,
           "column": 7
         },
@@ -42,11 +45,11 @@
       },
       {
         "emitterEvent": "testPass",
-        "name": "When I click on the Online Banking Section",
-        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "name": "When I click on More Services under Online Banking",
+        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the More Services button",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
           "line": 7,
           "column": 7
         },
@@ -57,11 +60,11 @@
       },
       {
         "emitterEvent": "testPass",
-        "name": "Then It should take me to the Online Banking Section",
-        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "name": "Then It should take me to Online Banking",
+        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the More Services button",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
           "line": 8,
           "column": 7
         },
@@ -75,11 +78,11 @@
       [
         "testPass",
         {
-          "name": "Given I go to the home page",
-          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+          "name": "Given I go to the homepage",
+          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the More Services button",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
             "line": 6,
             "column": 7
           },
@@ -92,11 +95,11 @@
       [
         "testPass",
         {
-          "name": "When I click on the Online Banking Section",
-          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+          "name": "When I click on More Services under Online Banking",
+          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the More Services button",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
             "line": 7,
             "column": 7
           },
@@ -109,11 +112,11 @@
       [
         "testPass",
         {
-          "name": "Then It should take me to the Online Banking Section",
-          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+          "name": "Then It should take me to Online Banking",
+          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the More Services button",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
             "line": 8,
             "column": 7
           },
@@ -124,11 +127,14 @@
         }
       ]
     ],
-    "duration": 19516000000
+    "duration": 19174000000
   },
   {
-    "description": "Verify if User can go to the Feedback Section by using the Nav Menu",
+    "description": "Verify if User can go to the Login by clicking Checking Account Activity",
     "assertions": [
+      {
+        "passed": true
+      },
       {
         "passed": true
       },
@@ -154,11 +160,11 @@
     "events": [
       {
         "emitterEvent": "testPass",
-        "name": "Given I go to the home page once again",
-        "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+        "name": "Given I go to the home page again",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking Checking Account Activity",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
           "line": 11,
           "column": 7
         },
@@ -169,11 +175,11 @@
       },
       {
         "emitterEvent": "testPass",
-        "name": "When I click on the Feedback Section",
-        "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+        "name": "When I click on Checking Account Activity",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking Checking Account Activity",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
           "line": 12,
           "column": 7
         },
@@ -184,11 +190,11 @@
       },
       {
         "emitterEvent": "testPass",
-        "name": "Then It should take me to the Feedback Section",
-        "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+        "name": "Then It should take me to the Login Section",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking Checking Account Activity",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
           "line": 13,
           "column": 7
         },
@@ -202,11 +208,11 @@
       [
         "testPass",
         {
-          "name": "Given I go to the home page once again",
-          "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+          "name": "Given I go to the home page again",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking Checking Account Activity",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
             "line": 11,
             "column": 7
           },
@@ -219,11 +225,11 @@
       [
         "testPass",
         {
-          "name": "When I click on the Feedback Section",
-          "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+          "name": "When I click on Checking Account Activity",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking Checking Account Activity",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
             "line": 12,
             "column": 7
           },
@@ -236,11 +242,11 @@
       [
         "testPass",
         {
-          "name": "Then It should take me to the Feedback Section",
-          "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+          "name": "Then It should take me to the Login Section",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking Checking Account Activity",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
             "line": 13,
             "column": 7
           },
@@ -251,6 +257,266 @@
         }
       ]
     ],
-    "duration": 19202000000
+    "duration": 18914000000
+  },
+  {
+    "description": "Verify if User can go to the Login by clicking Transfer Funds",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I'm on te homepage",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking Transfer Funds",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
+          "line": 16,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on Transfer Funds",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking Transfer Funds",
+        "durationMillis": 1000000,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
+          "line": 17,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should take me to the Login",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking Transfer Funds",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
+          "line": 18,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I'm on te homepage",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking Transfer Funds",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
+            "line": 16,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I click on Transfer Funds",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking Transfer Funds",
+          "durationMillis": 1000000,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
+            "line": 17,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should take me to the Login",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking Transfer Funds",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
+            "line": 18,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 19061000000
+  },
+  {
+    "description": "Verify if User can go to the Login by clicking My Money Map",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to the home page one more time",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking My Money Map",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
+          "line": 21,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on My Money Map",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking My Money Map",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
+          "line": 22,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should get me to the Login",
+        "category": "Example for future reference: Verify if User can go to the Login by clicking My Money Map",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navHomepage.feature",
+          "line": 23,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I go to the home page one more time",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking My Money Map",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
+            "line": 21,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I click on My Money Map",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking My Money Map",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
+            "line": 22,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should get me to the Login",
+          "category": "Example for future reference: Verify if User can go to the Login by clicking My Money Map",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navHomepage.feature",
+            "line": 23,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 19163000000
   }
 ]
