@@ -1,0 +1,256 @@
+[
+  {
+    "description": "Verify if User can go to the Online Banking Section by using the Nav Menu",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to the home page",
+        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "line": 6,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on the Online Banking Section",
+        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "line": 7,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should take me to the Online Banking Section",
+        "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "line": 8,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I go to the home page",
+          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "line": 6,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I click on the Online Banking Section",
+          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "line": 7,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should take me to the Online Banking Section",
+          "category": "Example for future reference: Verify if User can go to the Online Banking Section by using the Nav Menu",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "line": 8,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 19516000000
+  },
+  {
+    "description": "Verify if User can go to the Feedback Section by using the Nav Menu",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given I go to the home page once again",
+        "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "line": 11,
+          "column": 7
+        },
+        "progress": {
+          "step": 1,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on the Feedback Section",
+        "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "line": 12,
+          "column": 7
+        },
+        "progress": {
+          "step": 2,
+          "steps": 3
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then It should take me to the Feedback Section",
+        "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\navMenu.feature",
+          "line": 13,
+          "column": 7
+        },
+        "progress": {
+          "step": 3,
+          "steps": 3
+        }
+      }
+    ],
+    "emitToTestRunner": [
+      [
+        "testPass",
+        {
+          "name": "Given I go to the home page once again",
+          "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "line": 11,
+            "column": 7
+          },
+          "progress": {
+            "step": 1,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "When I click on the Feedback Section",
+          "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "line": 12,
+            "column": 7
+          },
+          "progress": {
+            "step": 2,
+            "steps": 3
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then It should take me to the Feedback Section",
+          "category": "Example for future reference: Verify if User can go to the Feedback Section by using the Nav Menu",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\navMenu.feature",
+            "line": 13,
+            "column": 7
+          },
+          "progress": {
+            "step": 3,
+            "steps": 3
+          }
+        }
+      ]
+    ],
+    "duration": 19202000000
+  }
+]
