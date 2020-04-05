@@ -46,36 +46,44 @@ export class AppPage {
     return element(by.id('feedback-title')).getAttribute("textContent") as Promise<string>;
   }
 
-  moreServicesBtn(){
+  moreServicesBtnHomepage(){
     return element(by.id('online-banking')).click();
   }
 
-  checkAccActLink(){
+  checkAccActLinkHomepage(){
     return element(by.id('account_activity_link')).click();
   }
 
-  transFundsLink(){
+  transFundsLinkHomepage(){
     return element(by.id('transfer_funds_link')).click();
   }
 
-  moneyMapLink(){
-    return element(by.id('transfer_funds_link')).click();
+  moneyMapLinkHomepage(){
+    return element(by.id('money_map_link')).click();
   }
 
   loginTitle(){
     return element(by.css('h3')).getAttribute("textContent") as Promise<string>;
   }
 
-  orderFieldStatus() {
-
-    return element(by.xpath('/html/body/app-root/main/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/app-filter-sidebar/app-shared-modal/div/div/div/div[2]/div/div/div[1]/div[1]/input')).getAttribute("textContent") as Promise<string>;;
-
+  accSummaryLinkOB(){
+    return element(by.id('account_summary_link')).click();
   }
 
-  checkTableResults() {
-    //return element(by.xpath('//*[@id="content"]/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/div[3]/div/p-datatable/div/div[1]/div/div[2]/div/table/tbody/tr[1]/td[1]/span/div')).getAttribute("textContent") as Promise<string>;
-    //*[@id="content"]/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/section/p-table/div/div/div/div[2]/table/tbody/tr[1]/td[2]/div
-    return element(by.xpath('//*[@id="content"]/app-vgo-ordering/div/app-vgo-home-page/app-vgo-orders-list/section/p-table/div/div/div/div[2]/table/tbody/tr[1]/td[2]/div')).getAttribute("textContent") as Promise<string>;
+  payBillsLink(){
+    return element(by.id('pay_bills_link')).click();
+  }
+
+  onlineStatementsLinkOB(){
+    return element(by.id('online_statements_link')).click();
+  }
+
+  faqLink(){
+    return element(by.id('faq-link')).click();
+  }
+
+  faqTitle(){
+    return element(by.css('h3')).getAttribute("textContent") as Promise<string>;
   }
 
   checkChipStarInserted() {

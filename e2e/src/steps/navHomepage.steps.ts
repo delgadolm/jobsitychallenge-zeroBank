@@ -18,7 +18,7 @@ Given(/^I go to the homepage$/, async () => {
 });
 
 When(/^I click on More Services under Online Banking$/, async () => {
-    await page.moreServicesBtn().then(function () {
+    await page.moreServicesBtnHomepage().then(function () {
         browser.sleep(2000);
     });
 });
@@ -34,7 +34,7 @@ Given(/^I go to the home page again$/, async () => {
 });
 
 When(/^I click on Checking Account Activity$/, async () => {
-    await page.checkAccActLink().then(function () {
+    await page.checkAccActLinkHomepage().then(function () {
         browser.sleep(2000);
     });
 });
@@ -50,7 +50,7 @@ Given(/^I'm on te homepage$/, async () => {
 });
 
 When(/^I click on Transfer Funds$/, async () => {
-    await page.transFundsLink().then(function () {
+    await page.transFundsLinkHomepage().then(function () {
         browser.sleep(2000);
     });
 });
@@ -66,7 +66,7 @@ Given(/^I go to the home page one more time$/, async () => {
 });
 
 When(/^I click on My Money Map$/, async () => {
-    await page.moneyMapLink().then(function () {
+    await page.moneyMapLinkHomepage().then(function () {
         browser.sleep(2000);
     });
 });
