@@ -1,6 +1,6 @@
-Feature: Example for future reference
+Feature: Check Search functionality
 
-   The porpose of this is to take what's here so you can do your tests faster
+   The porpose of this is to check the search functionality
 
    Scenario: Verify if User can use the search functionality
       Given I go to any page

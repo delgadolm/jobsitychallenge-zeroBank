@@ -1,6 +1,6 @@
-Feature: Example for future reference
+Feature: Check the navigation on the Online Banking page
 
-   The porpose of this is to take what's here so you can do your tests faster
+   The porpose of this is to check all navi available on the Online banking page
 
    Scenario: Verify if User can go to the Login by clicking on the Account Summary Link
       Given I go to the Online Banking Section

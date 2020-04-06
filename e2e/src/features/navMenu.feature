@@ -1,6 +1,5 @@
-Feature: Example for future reference
-
-   The porpose of this is to take what's here so you can do your tests faster
+Feature: Check nav menu
+   The porpose of this is to check options available on the nav menu
 
    Scenario: Verify if User can go to the Online Banking Section by using the Nav Menu
       Given I go to the home page

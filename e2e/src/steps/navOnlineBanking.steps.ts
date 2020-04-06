@@ -5,7 +5,6 @@ import { AppPage } from '../pages/zeroBank.po';
 import { browser } from 'protractor';
 
 let page: AppPage;
-let env = require('../env.js');
 
 Before(() => {
     page = new AppPage();

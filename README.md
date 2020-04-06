@@ -11,4 +11,4 @@ This is a challenge for the QA Automation position at Jobsity.
 5. Use `npm install multiple-cucumber-html-reporter` to install the reporter
 6. Save the dependencies for the reports `npm install multiple-cucumber-html-reporter --save` and `npm install multiple-cucumber-html-reporter --save-dev`
 7. Run `ng e2e` and it will run all the test available on the framework.
-8. Check the reports by going to
+8. The reports will be available soon.

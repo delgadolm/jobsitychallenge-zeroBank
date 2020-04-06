@@ -1,6 +1,6 @@
-Feature: Example for future reference
+Feature: Check nav on the homepage
 
-   The porpose of this is to take what's here so you can do your tests faster
+   The porpose of this is to check all nav available on the homepage
 
    Scenario: Verify if User can go to the Online Banking Section by using the More Services button
       Given I go to the homepage

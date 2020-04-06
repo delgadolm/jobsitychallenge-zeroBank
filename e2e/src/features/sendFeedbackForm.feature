@@ -1,6 +1,6 @@
-Feature: Example for future reference
+Feature: Check Feedback Form
 
-   The porpose of this is to take what's here so you can do your tests faster
+   The porpose of this is to check the feedback Form
 
    Scenario: Verify if User can send a valid feedback form
       Given I am in the homepage
