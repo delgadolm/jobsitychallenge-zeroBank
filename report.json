@@ -1,7 +1,13 @@
 [
   {
-    "description": "Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+    "description": "Verify if User can clear the fields on the feedback form",
     "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
       {
         "passed": true
       },
@@ -39,62 +45,77 @@
     "events": [
       {
         "emitterEvent": "testPass",
-        "name": "Given I am at the homepage",
-        "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+        "name": "Given I go to the homepage first",
+        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\faqNavigation.feature",
-          "line": 6,
+          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+          "line": 13,
           "column": 7
         },
         "progress": {
           "step": 1,
-          "steps": 4
+          "steps": 5
         }
       },
       {
         "emitterEvent": "testPass",
-        "name": "When I click on the Feedback on the nav Menu",
-        "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+        "name": "When I click on the Feedback on the navig Menu",
+        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\faqNavigation.feature",
-          "line": 7,
+          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+          "line": 14,
           "column": 7
         },
         "progress": {
           "step": 2,
-          "steps": 4
+          "steps": 5
         }
       },
       {
         "emitterEvent": "testPass",
-        "name": "And I click on the FAQ link",
-        "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+        "name": "And I fill the form with any data",
+        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\faqNavigation.feature",
-          "line": 8,
+          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+          "line": 15,
           "column": 7
         },
         "progress": {
           "step": 3,
-          "steps": 4
+          "steps": 5
         }
       },
       {
         "emitterEvent": "testPass",
-        "name": "Then It should take me to the FAQ page",
-        "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+        "name": "And I click on clear",
+        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\faqNavigation.feature",
-          "line": 9,
+          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+          "line": 16,
           "column": 7
         },
         "progress": {
           "step": 4,
-          "steps": 4
+          "steps": 5
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I should verify that each field is empty",
+        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+          "line": 17,
+          "column": 7
+        },
+        "progress": {
+          "step": 5,
+          "steps": 5
         }
       }
     ],
@@ -102,72 +123,89 @@
       [
         "testPass",
         {
-          "name": "Given I am at the homepage",
-          "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+          "name": "Given I go to the homepage first",
+          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\faqNavigation.feature",
-            "line": 6,
+            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+            "line": 13,
             "column": 7
           },
           "progress": {
             "step": 1,
-            "steps": 4
+            "steps": 5
           }
         }
       ],
       [
         "testPass",
         {
-          "name": "When I click on the Feedback on the nav Menu",
-          "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+          "name": "When I click on the Feedback on the navig Menu",
+          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\faqNavigation.feature",
-            "line": 7,
+            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+            "line": 14,
             "column": 7
           },
           "progress": {
             "step": 2,
-            "steps": 4
+            "steps": 5
           }
         }
       ],
       [
         "testPass",
         {
-          "name": "And I click on the FAQ link",
-          "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+          "name": "And I fill the form with any data",
+          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\faqNavigation.feature",
-            "line": 8,
+            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+            "line": 15,
             "column": 7
           },
           "progress": {
             "step": 3,
-            "steps": 4
+            "steps": 5
           }
         }
       ],
       [
         "testPass",
         {
-          "name": "Then It should take me to the FAQ page",
-          "category": "Example for future reference: Verify if User can go to the FAQ page by clicking on the link located at the Feedback page",
+          "name": "And I click on clear",
+          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\faqNavigation.feature",
-            "line": 9,
+            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+            "line": 16,
             "column": 7
           },
           "progress": {
             "step": 4,
-            "steps": 4
+            "steps": 5
+          }
+        }
+      ],
+      [
+        "testPass",
+        {
+          "name": "Then I should verify that each field is empty",
+          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
+          "durationMillis": 0,
+          "sourceLocation": {
+            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
+            "line": 17,
+            "column": 7
+          },
+          "progress": {
+            "step": 5,
+            "steps": 5
           }
         }
       ]
     ],
-    "duration": 21103000000
+    "duration": 21139000000
   }
 ]

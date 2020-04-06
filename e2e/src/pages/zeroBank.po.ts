@@ -86,6 +86,42 @@ export class AppPage {
     return element(by.css('h3')).getAttribute("textContent") as Promise<string>;
   }
 
+  fillFeedbackForm(){
+    var name = element(by.name('name'));
+    var email = element(by.name('email'));
+    var subject = element(by.name('subject'));
+    var comment = element(by.name('comment'));
+
+    name.sendKeys(env.userName);
+    email.sendKeys(env.userEmail);
+    subject.sendKeys(env.feedbackSubject);
+    comment.sendKeys(env.feedbackComment);
+  }
+
+  nameFeedback(){
+    return element(by.name('name')).getText()as Promise<string>;
+  }
+
+  sendFeedbackForm(){
+    var sendForm = element(by.xpath('/html/body/div[1]/div[2]/div/div/div/form/div[2]/input[1]'))
+    return  sendForm.click();
+  }
+
+  successFeedbackMessage(){
+    return element(by.xpath('/html/body/div[1]/div[2]/div/div/div/text')).getText()as Promise<string>;
+  }
+
+  clearFeedbackForm(){
+    return element(by.name('clear')).click();
+  }
+
+  searchHead(){
+    var search = element(by.id('searchTerm'));
+    search.sendKeys('Transfer Funds');
+    browser.actions().sendKeys(protractor.Key.ENTER).perform();
+
+  }
+
   checkChipStarInserted() {
     return element(by.className('chip')).getAttribute("textContent") as Promise<string>;
   }
