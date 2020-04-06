@@ -5,7 +5,7 @@ Feature: Check Feedback Form
    Scenario: Verify if User can send a valid feedback form
       Given I am in the homepage
       When I click on the Feedback on the navi Menu
-      And  I fill the form
+      And  I fill the form with valid data
       And  I click on send
       Then I should recieve the successful message
 

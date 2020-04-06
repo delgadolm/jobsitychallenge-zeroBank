@@ -23,7 +23,7 @@ When(/^I click on the Feedback on the navi Menu$/, async () => {
     });
 });
 
-When(/^I fill the form/, async () => {
+When(/^I fill the form with valid data/, async () => {
     await page.fillFeedbackForm();
 });
 

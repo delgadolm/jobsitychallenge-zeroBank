@@ -1,8 +1,8 @@
-# jobsitychallenge
+# Jobsitychallenge - Zero Bank
 This is a challenge for the QA Automation position at Jobsity.
 
 ## Instructions to set everything up
-
+This is a mix of Protractor framework with the combination of Typescript and Cucumber. All using selenium test runner.
 1. Download node.js with npm 
 2. Use `npm install -g protractor` to install the Protractor framework globally
 3. Use `npm install --save-dev @types/{chai,cucumber} chai cucumber protractor-cucumber-framework ` to install the dependendices needed for chai and the cucumber framework
