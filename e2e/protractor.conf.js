@@ -11,7 +11,7 @@ var env = require('./src/env');
 
 exports.config = {
 
-  specs: ['./src/features/sendFeedbackForm.feature'],
+  specs: ['./src/features/searchHead.feature'],
   chromeDriver: (env.chromeDriverVersion),
   capabilities: {
     browserName: 'chrome',

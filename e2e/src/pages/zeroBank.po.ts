@@ -118,8 +118,11 @@ export class AppPage {
   searchHead(){
     var search = element(by.id('searchTerm'));
     search.sendKeys('Transfer Funds');
-    browser.actions().sendKeys(protractor.Key.ENTER).perform();
+    return browser.actions().sendKeys(protractor.Key.ENTER).perform()
+  }
 
+  searchResult(){
+    return element(by.xpath('/html/body/div[1]/div[2]/div/ul/li/a')).getAttribute("textContent") as Promise<string>;
   }
 
   checkChipStarInserted() {

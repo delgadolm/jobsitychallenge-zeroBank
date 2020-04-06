@@ -1,10 +1,7 @@
 [
   {
-    "description": "Verify if User can clear the fields on the feedback form",
+    "description": "Verify if User can use the search functionality",
     "assertions": [
-      {
-        "passed": true
-      },
       {
         "passed": true
       },
@@ -45,77 +42,47 @@
     "events": [
       {
         "emitterEvent": "testPass",
-        "name": "Given I go to the homepage first",
-        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
-        "durationMillis": 0,
+        "name": "Given I go to any page",
+        "category": "Example for future reference: Verify if User can use the search functionality",
+        "durationMillis": 1000000,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-          "line": 13,
+          "filePath": "e2e\\src\\features\\searchHead.feature",
+          "line": 6,
           "column": 7
         },
         "progress": {
           "step": 1,
-          "steps": 5
+          "steps": 3
         }
       },
       {
         "emitterEvent": "testPass",
-        "name": "When I click on the Feedback on the navig Menu",
-        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
+        "name": "When I perform a search of Transfer funds",
+        "category": "Example for future reference: Verify if User can use the search functionality",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-          "line": 14,
+          "filePath": "e2e\\src\\features\\searchHead.feature",
+          "line": 7,
           "column": 7
         },
         "progress": {
           "step": 2,
-          "steps": 5
+          "steps": 3
         }
       },
       {
         "emitterEvent": "testPass",
-        "name": "And I fill the form with any data",
-        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
+        "name": "Then It should give me results of transfer funds",
+        "category": "Example for future reference: Verify if User can use the search functionality",
         "durationMillis": 0,
         "sourceLocation": {
-          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-          "line": 15,
+          "filePath": "e2e\\src\\features\\searchHead.feature",
+          "line": 8,
           "column": 7
         },
         "progress": {
           "step": 3,
-          "steps": 5
-        }
-      },
-      {
-        "emitterEvent": "testPass",
-        "name": "And I click on clear",
-        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
-        "durationMillis": 0,
-        "sourceLocation": {
-          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-          "line": 16,
-          "column": 7
-        },
-        "progress": {
-          "step": 4,
-          "steps": 5
-        }
-      },
-      {
-        "emitterEvent": "testPass",
-        "name": "Then I should verify that each field is empty",
-        "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
-        "durationMillis": 0,
-        "sourceLocation": {
-          "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-          "line": 17,
-          "column": 7
-        },
-        "progress": {
-          "step": 5,
-          "steps": 5
+          "steps": 3
         }
       }
     ],
@@ -123,89 +90,55 @@
       [
         "testPass",
         {
-          "name": "Given I go to the homepage first",
-          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
-          "durationMillis": 0,
+          "name": "Given I go to any page",
+          "category": "Example for future reference: Verify if User can use the search functionality",
+          "durationMillis": 1000000,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-            "line": 13,
+            "filePath": "e2e\\src\\features\\searchHead.feature",
+            "line": 6,
             "column": 7
           },
           "progress": {
             "step": 1,
-            "steps": 5
+            "steps": 3
           }
         }
       ],
       [
         "testPass",
         {
-          "name": "When I click on the Feedback on the navig Menu",
-          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
+          "name": "When I perform a search of Transfer funds",
+          "category": "Example for future reference: Verify if User can use the search functionality",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-            "line": 14,
+            "filePath": "e2e\\src\\features\\searchHead.feature",
+            "line": 7,
             "column": 7
           },
           "progress": {
             "step": 2,
-            "steps": 5
+            "steps": 3
           }
         }
       ],
       [
         "testPass",
         {
-          "name": "And I fill the form with any data",
-          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
+          "name": "Then It should give me results of transfer funds",
+          "category": "Example for future reference: Verify if User can use the search functionality",
           "durationMillis": 0,
           "sourceLocation": {
-            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-            "line": 15,
+            "filePath": "e2e\\src\\features\\searchHead.feature",
+            "line": 8,
             "column": 7
           },
           "progress": {
             "step": 3,
-            "steps": 5
-          }
-        }
-      ],
-      [
-        "testPass",
-        {
-          "name": "And I click on clear",
-          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
-          "durationMillis": 0,
-          "sourceLocation": {
-            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-            "line": 16,
-            "column": 7
-          },
-          "progress": {
-            "step": 4,
-            "steps": 5
-          }
-        }
-      ],
-      [
-        "testPass",
-        {
-          "name": "Then I should verify that each field is empty",
-          "category": "Example for future reference: Verify if User can clear the fields on the feedback form",
-          "durationMillis": 0,
-          "sourceLocation": {
-            "filePath": "e2e\\src\\features\\sendFeedbackForm.feature",
-            "line": 17,
-            "column": 7
-          },
-          "progress": {
-            "step": 5,
-            "steps": 5
+            "steps": 3
           }
         }
       ]
     ],
-    "duration": 21139000000
+    "duration": 18943000000
   }
 ]
