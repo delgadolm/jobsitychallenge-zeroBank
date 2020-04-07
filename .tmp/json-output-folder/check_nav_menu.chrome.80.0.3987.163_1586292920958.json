@@ -1,0 +1,276 @@
+[
+  {
+    "description": "   The porpose of this is to check options available on the nav menu",
+    "keyword": "Feature",
+    "name": "Check nav menu",
+    "line": 1,
+    "id": "check-nav-menu",
+    "tags": [],
+    "uri": "e2e\\src\\features\\navMenu.feature",
+    "elements": [
+      {
+        "id": "check-nav-menu;verify-if-user-can-go-to-the-online-banking-section-by-using-the-nav-menu",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify if User can go to the Online Banking Section by using the Nav Menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\faqNavigation.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\navHomepage.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\navOnlineBanking.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\searchHead.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\sendFeedbackForm.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I go to the home page",
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11807000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the Online Banking Section",
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "It should take me to the Online Banking Section",
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5019000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-nav-menu;verify-if-user-can-go-to-the-feedback-section-by-using-the-nav-menu",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify if User can go to the Feedback Section by using the Nav Menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\faqNavigation.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\navHomepage.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\navOnlineBanking.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\searchHead.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\src\\steps\\sendFeedbackForm.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I go to the home page once again",
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click on the Feedback Section",
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "It should take me to the Feedback Section",
+            "match": {
+              "location": "e2e\\src\\steps\\navMenu.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5009000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "80.0.3987.163"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

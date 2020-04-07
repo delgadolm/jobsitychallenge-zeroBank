@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~9.0.0",
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -35,7 +36,7 @@
     "chai": "^4.2.0",
     "codelyzer": "^5.1.2",
     "cucumber": "^6.0.5",
-    "multiple-cucumber-html-reporter": "^1.16.0",
+    "multiple-cucumber-html-reporter": "^1.16.1",
     "protractor": "^5.4.3",
     "protractor-cucumber-framework": "^6.2.0",
     "ts-node": "~8.3.0",
