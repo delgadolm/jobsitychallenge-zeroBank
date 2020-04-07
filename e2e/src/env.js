@@ -1,5 +1,5 @@
 module.exports  = {
-    chromeDriverVersion: '../node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_80.0.3987.106.exe',
+    chromeDriverVersion: '../../../AppData/Roaming/npm/node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_80.0.3987.106.exe',
     userName:'test1',
     userPassword:'newuser123',
     userEmail:'test@gmail.com',
